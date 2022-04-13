@@ -1,7 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - DrawTatoo
+    - ARFaceRegionManager
+    - CameraResolution
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -11,13 +12,14 @@ ScriptsOnlyBuild:
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
+    - UnityEngine.XR.ARFoundation.ARFace
+    - UnityEngine.XR.ARFoundation.ARFaceManager
+    - UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer
     - UnityEngine.XR.ARFoundation.ARInputManager
     - UnityEngine.XR.ARFoundation.ARPoseDriver
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    - UnityEngine.XR.ARFoundation.ARTrackedImageManager
-    Unity.XR.ARSubsystems.dll:
-    - UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -36,6 +38,11 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -65,32 +72,58 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1518}
+    - Class: 114
+      Script: {instanceID: 1628}
+    - Class: 114
+      Script: {instanceID: 2232}
+    - Class: 114
+      Script: {instanceID: 2648}
     - Class: 114
       Script: {instanceID: 2692}
     - Class: 114
+      Script: {instanceID: 2708}
+    - Class: 114
       Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3058}
     - Class: 114
-      Script: {instanceID: 3660}
+      Script: {instanceID: 3310}
     - Class: 114
-      Script: {instanceID: 3666}
+      Script: {instanceID: 3442}
     - Class: 114
-      Script: {instanceID: 4222}
+      Script: {instanceID: 3662}
     - Class: 114
-      Script: {instanceID: 4570}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 5012}
+      Script: {instanceID: 4224}
     - Class: 114
-      Script: {instanceID: 5460}
+      Script: {instanceID: 4572}
     - Class: 114
-      Script: {instanceID: 19772}
+      Script: {instanceID: 5300}
+    - Class: 114
+      Script: {instanceID: 5390}
+    - Class: 114
+      Script: {instanceID: 5554}
+    - Class: 114
+      Script: {instanceID: 17326}
+    - Class: 114
+      Script: {instanceID: 23196}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -725,6 +758,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: ec8392c466755a70b950a02be8926950
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DrawTatoo
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -797,10 +836,22 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: ec8392c466755a70b950a02be8926950
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DrawTatoo
+    className: CameraResolution
+  - hash:
+      serializedVersion: 2
+      Hash: 3be78f12d2b7e32d788ed3e442a4ea52
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Markerless
+  - hash:
+      serializedVersion: 2
+      Hash: be9c913ecf747f58ce7de0a150ccc7f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARFaceRegionManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
