@@ -5,6 +5,8 @@ ScriptsOnlyBuild:
     - CFX_AutoDestructShuriken
     - Fire
     - SceneChangeManager
+    - TatooAniChange
+    - TopGorilla
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -44,7 +46,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Yatatoo/ShScenes/ShCameraScene.unity:
     - Class: 1
@@ -67,6 +71,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 96
@@ -76,45 +84,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1554}
+      Script: {instanceID: 18330}
     - Class: 114
-      Script: {instanceID: 1664}
+      Script: {instanceID: 18438}
     - Class: 114
-      Script: {instanceID: 1772}
+      Script: {instanceID: 18458}
     - Class: 114
-      Script: {instanceID: 2272}
+      Script: {instanceID: 18546}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 19034}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 19210}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 19450}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 19494}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 19508}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 19598}
     - Class: 114
-      Script: {instanceID: 3490}
+      Script: {instanceID: 19850}
     - Class: 114
-      Script: {instanceID: 3712}
+      Script: {instanceID: 20106}
     - Class: 114
-      Script: {instanceID: 3718}
+      Script: {instanceID: 20238}
     - Class: 114
-      Script: {instanceID: 4280}
+      Script: {instanceID: 20458}
     - Class: 114
-      Script: {instanceID: 4544}
+      Script: {instanceID: 20464}
     - Class: 114
-      Script: {instanceID: 4636}
+      Script: {instanceID: 21024}
     - Class: 114
-      Script: {instanceID: 5278}
+      Script: {instanceID: 21286}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 21378}
     - Class: 114
-      Script: {instanceID: 5470}
+      Script: {instanceID: 22006}
     - Class: 114
-      Script: {instanceID: 5622}
+      Script: {instanceID: 22098}
+    - Class: 114
+      Script: {instanceID: 22196}
+    - Class: 114
+      Script: {instanceID: 22344}
+    - Class: 114
+      Script: {instanceID: 32186}
+    - Class: 114
+      Script: {instanceID: 64650}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -167,22 +183,18 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1554}
+      Script: {instanceID: 18330}
     - Class: 114
-      Script: {instanceID: 2272}
+      Script: {instanceID: 19450}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 19598}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 19850}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 20106}
     - Class: 114
-      Script: {instanceID: 3358}
-    - Class: 114
-      Script: {instanceID: 4072}
+      Script: {instanceID: 20818}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -979,7 +991,7 @@ ScriptsOnlyBuild:
     className: ARRaycastManager
   - hash:
       serializedVersion: 2
-      Hash: be9c913ecf747f58ce7de0a150ccc7f8
+      Hash: c1b2fb385d8014ff811f8f1a0883028d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARFaceRegionManager
@@ -1025,8 +1037,26 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 9be5dfde4bfb718f77176ea4d71f97ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TatooAniChange
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AniChangebar
+  - hash:
+      serializedVersion: 2
+      Hash: 0187dd73f0a164e92fc706484c727b71
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TopGorilla
   platform: 13
   scenePathNames:
   - Assets/Yatatoo/ShScenes/ShIntroScene.unity
   - Assets/Yatatoo/ShScenes/ShCameraScene.unity
-  playerPath: C:/Users/medici/Documents/GitHub/YaTaToo/ShARProject/ShARProject/Yatatoo.apk
+  playerPath: C:/Users/medici/Documents/GitHub/YaTaToo/YaTatoo2/YaTatoo/Yatatoo.apk

@@ -121,6 +121,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4351495083283164931}
     m_Modifications:
+    - target: {fileID: 7961998897288931259, guid: b9098145a0bcf9948bca98732d3b685a, type: 3}
+      propertyPath: m_DrawMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7961998897735633960, guid: b9098145a0bcf9948bca98732d3b685a, type: 3}
       propertyPath: m_Name
       value: Ani
@@ -228,6 +232,14 @@ PrefabInstance:
     - target: {fileID: 7961998897735633965, guid: b9098145a0bcf9948bca98732d3b685a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961998897735633967, guid: b9098145a0bcf9948bca98732d3b685a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961998897735633967, guid: b9098145a0bcf9948bca98732d3b685a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2142676371
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9098145a0bcf9948bca98732d3b685a, type: 3}

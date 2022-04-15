@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1222296534182139112}
   - component: {fileID: 1222296534182139113}
-  m_Layer: 0
+  - component: {fileID: 431992154}
+  m_Layer: 8
   m_Name: Gorilla
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,6 +83,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &431992154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222296534182139095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.6430135, y: 8.102912, z: 0.20000003}
+  m_Center: {x: 0.049114227, y: -0.06375431, z: 0}
 --- !u!1 &1222296534477144713
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,6 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1222296534477144714}
+  - component: {fileID: 1434931428}
   m_Layer: 0
   m_Name: GorillaParent
   m_TagString: Untagged
@@ -114,6 +129,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1434931428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222296534477144713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487db667d896bbe428854b2f9d1ce56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vids:
+  - {fileID: 32900000, guid: 1945081d0fe446747ad85795c5a99f46, type: 3}
+  - {fileID: 32900000, guid: 31ada24cbbb694b418c535a7330f5bdd, type: 3}
+  - {fileID: 32900000, guid: 93a7dde9fdd2ef64ba8ee3a914ae0fdb, type: 3}
+  - {fileID: 32900000, guid: 9f8f03b34a7a2c844b0baaa09a86a403, type: 3}
+  videoPlayer: {fileID: 6621480869849235624}
+  aniChangebar: {fileID: 6822935083027374819, guid: 8f84d207732a637489513789e91be0c3, type: 3}
 --- !u!1 &6621480869142428764
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6621480869142428834}
   - component: {fileID: 6621480869142428765}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: IntroLogoFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +242,7 @@ GameObject:
   - component: {fileID: 6621480869849235621}
   - component: {fileID: 6621480869849235624}
   - component: {fileID: 6621480869849235627}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ani
   m_TagString: Animation
   m_Icon: {fileID: 0}
@@ -267,8 +301,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -380776991
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1313cb4cb4d599c41b004d68ef56a316, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

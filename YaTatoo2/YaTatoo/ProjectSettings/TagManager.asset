@@ -15,7 +15,7 @@ TagManager:
   - UI
   - FaceMask
   - Animation
-  - 
+  - Tatoo
   - 
   - 
   - 
@@ -45,4 +45,7 @@ TagManager:
     locked: 0
   - name: snake
     uniqueID: 2142676371
+    locked: 0
+  - name: gorilla
+    uniqueID: 3914190305
     locked: 0
