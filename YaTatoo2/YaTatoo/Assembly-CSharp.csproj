@@ -36,13 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\TatooAniChange.cs" />
      <Compile Include="Assets\Script\ShScript\ButtonManager.cs" />
+     <Compile Include="Assets\Script\AniChangebar.cs" />
      <Compile Include="Assets\ShEffect\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
      <Compile Include="Assets\ShEffect\Ultimate 10 Plus Shaders\Scripts\U10PS_MouseRotation.cs" />
      <Compile Include="Assets\ShEffect\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\ShEffect\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
      <Compile Include="Assets\ShEffect\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus.cs" />
      <Compile Include="Assets\ShEffect\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\Script\TopGorilla.cs" />
      <Compile Include="Assets\ShEffect\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
      <Compile Include="Assets\ShEffect\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
      <Compile Include="Assets\Script\ShScript\SceneChangeManager.cs" />
@@ -57,9 +60,6 @@
      <Compile Include="Assets\ShEffect\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
      <Compile Include="Assets\Prefabs\ShPrefab\ShARMarkerless.cs" />
      <Compile Include="Assets\Script\ARFaceRegionManager.cs" />
-     <Compile Include="Assets\Script\TatooAniChange.cs" />
-     <Compile Include="Assets\Script\AniChangebar.cs" />
-     <Compile Include="Assets\Script\TopGorilla.cs" />
      <None Include="Assets\ShEffect\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\ShEffect\Ultimate 10 Plus Shaders\Shaders\Edge Detection.shader" />
      <None Include="Assets\ShEffect\Ultimate 10 Plus Shaders\Shaders\Grass Sway.shader" />
